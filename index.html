@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eficiencia energética del software</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <main class="presentacion-contenedor">
+        <header class="cabecera">
+            <span class="marca"><span aria-hidden="true">ϟ</span> Software sostenible</span>
+            <span id="contador-diapositivas" class="contador" aria-live="polite"></span>
+        </header>
+        <div class="barra-progreso-fondo" aria-hidden="true">
+            <div id="barra-progreso" class="barra-progreso-relleno"></div>
+        </div>
+
+        <section id="visor-diapositiva" class="diapositiva-activa" aria-live="polite"></section>
+
+        <footer class="controles-navegacion">
+            <button id="btn-anterior" class="btn-nav">Anterior</button>
+            <nav id="indicador-puntos" class="indicador-puntos" aria-label="Diapositivas"></nav>
+            <div class="acciones">
+                <button id="btn-pantalla" class="btn-nav" aria-label="Activar pantalla completa" title="Pantalla completa" hidden>⛶</button>
+                <button id="btn-siguiente" class="btn-nav btn-primario">Siguiente</button>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

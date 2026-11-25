@@ -185,6 +185,15 @@ h1 { font-size: clamp(2.45rem, 5.8vw, 4.75rem); max-width: 24ch; }
     font: 700 2rem ui-monospace, monospace;
 }
 
+.hallazgos {
+    margin: 0;
+    padding-inline-start: 1.25rem;
+    line-height: 1.55;
+}
+
+.hallazgos li + li { margin-top: .75rem; }
+.hallazgos li::marker { color: var(--acento); }
+
 .metricas { padding: 0 1rem; }
 .metricas div { display: flex; align-items: center; gap: .85rem; padding: .85rem 0; }
 .metricas div + div { border-top: 1px solid var(--borde); }

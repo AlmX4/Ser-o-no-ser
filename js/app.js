@@ -21,22 +21,23 @@ const diapositivas = [
         `
     },
     {
-        tema: "Lenguajes de programación",
-        titulo: "El lenguaje influye en el consumo",
+        tema: "Diapositiva 2 · Lenguajes de Programación",
+        titulo: "Eficiencia energética según el lenguaje de programación",
         clase: "lenguajes",
         contenido: `
             <div class="composicion">
-                <div>
-                    <p class="introduccion">Pereira y su equipo compararon soluciones a 10 problemas escritos en hasta 27 lenguajes. C y Rust estuvieron entre los de menor consumo en el conjunto de pruebas principal.</p>
-                    <p>La clasificación varió entre conjuntos de pruebas. Antes de elegir un lenguaje, prueba las tareas que ejecutará tu aplicación.</p>
-                </div>
+                <ul class="hallazgos">
+                    <li>Evaluaron 27 lenguajes bajo el Computer Language Benchmarks Game midiendo consumo de energía (Joules), tiempo y memoria.</li>
+                    <li>Lenguajes compilados como C y Rust demostraron ser los más eficientes; lenguajes interpretados como Python o Perl consumieron hasta decenas de veces más energía.</li>
+                    <li>Un programa más rápido no siempre es el que menos energía consume; la gestión de memoria altera el gasto eléctrico.</li>
+                </ul>
                 <div class="panel metricas" aria-label="Variables que comparó el estudio">
                     <div><strong>J</strong><span><b>Energía</b>Cuánto se consume</span></div>
                     <div><strong>ms</strong><span><b>Tiempo</b>Cuánto tarda la tarea</span></div>
                     <div><strong>MB</strong><span><b>Memoria</b>Cuánta RAM se usa</span></div>
                 </div>
             </div>
-            <p class="fuente">Pereira et al. (2017, 2021)</p>
+            <p class="fuente">Referente: Pereira et al. (2017, 2021)</p>
         `
     },
     {
